@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/build/assets/app.css">
+    <link rel="stylesheet" href="/build/assets/app-7qGBH21J.css">
 </head>
 <body class="bg-black text-white">
 
