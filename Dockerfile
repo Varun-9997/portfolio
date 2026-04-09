@@ -17,6 +17,14 @@ RUN apt-get install -y nodejs
 
 RUN npm install && npm run build
 
+# Fix permissions
+RUN chmod -R 775 storage bootstrap/cache
+
+# Clear Laravel cache
+RUN php artisan config:clear
+RUN php artisan route:clear
+RUN php artisan view:clear
+
 EXPOSE 10000
 
 CMD php artisan serve --host=0.0.0.0 --port=${PORT}
