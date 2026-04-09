@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Portfolio</title>
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="/build/assets/app.css">
 </head>
 <body class="bg-black text-white">
 
