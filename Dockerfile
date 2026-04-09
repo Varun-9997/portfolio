@@ -12,12 +12,16 @@ COPY . .
 
 RUN composer install
 
+# Install Node
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 
-# 👇 THIS PART UPDATED
+# Install & build frontend
 RUN npm install
 RUN npm run build
+
+# 🔥 IMPORTANT: verify build exists
+RUN ls -la public/build
 
 # Fix permissions
 RUN chmod -R 775 storage bootstrap/cache
