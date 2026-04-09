@@ -12,3 +12,7 @@ Route::get('/', function () {
 });
 
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+
+Route::get('/build/{path}', function ($path) {
+    return response()->file(public_path("build/$path"));
+})->where('path', '.*');
