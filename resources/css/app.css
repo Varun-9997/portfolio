@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+/* Smooth hover animation */
+a {
+    transition: all 0.3s ease;
+}
+.skill {
+    @apply bg-white/5 border border-white/10 px-4 py-2 rounded-lg text-sm 
+           hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 
+           hover:text-white hover:shadow-lg hover:shadow-purple-500/30
+           transition duration-300;
+}
+body {
+    background: radial-gradient(circle at top, #111 0%, #000 60%);
+}
+/* Smooth scale */
+.card-hover {
+    transition: all 0.3s ease;
+
+    /* lighter than background */
+    background: rgba(255, 255, 255, 0.04);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(10px);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+
+    /* visible gradient */
+    background: linear-gradient(
+        135deg,
+        rgba(168, 85, 247, 0.15),
+        rgba(236, 72, 153, 0.15)
+    );
+
+    border: 1px solid rgba(168, 85, 247, 0.5);
+
+    box-shadow: 
+        0 15px 40px rgba(168, 85, 247, 0.25),
+        0 0 25px rgba(236, 72, 153, 0.2);
+}
