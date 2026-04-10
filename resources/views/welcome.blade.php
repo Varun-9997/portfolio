@@ -340,10 +340,6 @@ hover:bg-purple-500/20 transition">JavaScript</span>
 
                 </div>
 
-                <p class="text-gray-500 text-sm mt-6">
-                    Usually responds within a few hours.
-                </p>
-
             </div>
 
             <!-- Social Links -->
