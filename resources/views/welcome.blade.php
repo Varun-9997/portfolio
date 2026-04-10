@@ -74,6 +74,45 @@
                 class="card-hover p-6 rounded-xl backdrop-blur-lg 
      bg-white/5 border border-white/10">
 
+                <h3 class="text-xl font-semibold">Granthaa Land Developers</h3>
+
+                <p class="text-gray-400 mt-3">
+                    Commission and plot sales management system with booking tracking,
+                    advisor hierarchy, commission calculation, and reporting dashboard.
+                </p>
+
+                <!-- Tech Stack -->
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
+hover:bg-purple-500/20 transition">Laravel</span>
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
+hover:bg-purple-500/20 transition">MySQL</span>
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
+hover:bg-purple-500/20 transition">REST
+                        API</span>
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
+hover:bg-purple-500/20 transition">JavaScript</span>
+                </div>
+
+                <!-- Buttons -->
+                <div class="mt-6 flex gap-3">
+                    <a href="https://granthaadeveloperpvtltd.com"
+                        class="text-sm bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded">
+                        Live
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+            <div data-aos="fade-up" data-aos-delay="100"
+                class="card-hover p-6 rounded-xl backdrop-blur-lg 
+     bg-white/5 border border-white/10">
+
                 <h3 class="text-xl font-semibold">Anushka Freight Carrier</h3>
 
                 <p class="text-gray-400 mt-3">
@@ -105,38 +144,65 @@ hover:bg-purple-500/20 transition">JavaScript</span>
 
             </div>
 
-            <!-- Project 2 -->
+            {{-- Project 3 --}}
             <div data-aos="fade-up" data-aos-delay="100"
                 class="card-hover p-6 rounded-xl backdrop-blur-lg 
-     bg-white/5 border border-white/10">
+    bg-white/5 border border-white/10">
 
-                <h3 class="text-xl font-semibold">Granthaa Land Developers</h3>
+                <h3 class="text-xl font-semibold">Balivansh College Website</h3>
 
                 <p class="text-gray-400 mt-3">
-                    Commission and plot sales management system with booking tracking,
-                    advisor hierarchy, commission calculation, and reporting dashboard.
+                    Developed and redesigned the official college website with focus on responsive UI,
+                    improved layout, and better user experience for students and staff.
                 </p>
 
                 <!-- Tech Stack -->
                 <div class="flex flex-wrap gap-2 mt-4">
                     <span
-                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
-hover:bg-purple-500/20 transition">Laravel</span>
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">HTML</span>
                     <span
-                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
-hover:bg-purple-500/20 transition">MySQL</span>
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">CSS</span>
                     <span
-                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
-hover:bg-purple-500/20 transition">REST
-                        API</span>
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">JavaScript</span>
                     <span
-                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md 
-hover:bg-purple-500/20 transition">JavaScript</span>
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">Bootstrap</span>
                 </div>
 
                 <!-- Buttons -->
                 <div class="mt-6 flex gap-3">
-                    <a href="https://granthaadeveloperpvtltd.com"
+                    <a href="https://bcynhm.org/" target="_blank"
+                        class="text-sm bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded">
+                        Live
+                    </a>
+                </div>
+
+            </div>
+
+            {{-- Project 4 --}}
+            <div data-aos="fade-up" data-aos-delay="100"
+                class="card-hover p-6 rounded-xl backdrop-blur-lg 
+    bg-white/5 border border-white/10">
+
+                <h3 class="text-xl font-semibold">Chandrapur Police Website</h3>
+
+                <p class="text-gray-400 mt-3">
+                    Contributed to the development of a live government website by implementing UI components
+                    and improving responsiveness for better accessibility across devices.
+                </p>
+
+                <!-- Tech Stack -->
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">HTML</span>
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">CSS</span>
+                    <span
+                        class="bg-white/5 border border-white/10 px-3 py-1 text-xs rounded-md hover:bg-purple-500/20 transition">JavaScript</span>
+                </div>
+
+                <!-- Buttons -->
+                <div class="mt-6 flex gap-3">
+                    <a href="https://chandrapurpolice.gov.in/" target="_blank"
                         class="text-sm bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded">
                         Live
                     </a>
