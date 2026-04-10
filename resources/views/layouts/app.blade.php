@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body class="bg-black text-white">
 
     <!-- Navbar -->
-    <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 
+    <nav
+        class="fixed top-4 left-1/2 transform -translate-x-1/2 
             w-[90%] max-w-5xl z-50 
             bg-white/5 backdrop-blur-lg 
             border border-white/10 
             rounded-xl px-6 py-3 shadow-lg shadow-purple-500/10
             flex justify-between items-center">
 
-    <!-- Logo -->
-    <a href="#home">
-         <h1 class="text-lg font-semibold tracking-wide">
-            Varun
-        </h1>
-    </a>
+        <!-- Logo -->
+        <a href="#home">
+            <h1 class="text-lg font-semibold tracking-wide">
+                Varun
+            </h1>
+        </a>
 
-    <!-- Links -->
-    <div class="flex gap-6 text-sm">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#contact" class="nav-link">Contact</a>
-    </div>
+        <!-- Links -->
+        <div class="flex gap-6 text-sm">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
 
-</nav>
+    </nav>
 
     <!-- Page Content -->
     <div class="pt-20">
@@ -36,4 +42,5 @@
     </div>
 
 </body>
+
 </html>

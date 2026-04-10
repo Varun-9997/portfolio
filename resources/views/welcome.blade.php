@@ -313,22 +313,31 @@ hover:bg-purple-500/20 transition">JavaScript</span>
                     <div class="text-center">
 
                         <p class="text-gray-400 text-sm mb-2">
-                            Or email me directly at
+                            Or reach me via email or phone
                         </p>
 
-                        <div class="flex items-center justify-center gap-3">
-
-                            <!-- Email Text -->
+                        <!-- Email -->
+                        <div class="flex items-center justify-center gap-3 mb-2">
                             <span class="text-white font-medium">
                                 dangrevarun23@gmail.com
                             </span>
 
-                            <!-- Copy Button -->
                             <button onclick="navigator.clipboard.writeText('dangrevarun23@gmail.com')"
                                 class="text-purple-400 hover:text-purple-300 transition text-sm">
                                 Copy
                             </button>
+                        </div>
 
+                        <!-- Phone -->
+                        <div class="flex items-center justify-center gap-3">
+                            <a href="tel:+919970575246" class="text-white font-medium hover:underline">
+                                +91 7620741085
+                            </a>
+
+                            <button onclick="navigator.clipboard.writeText('9970575246')"
+                                class="text-purple-400 hover:text-purple-300 transition text-sm">
+                                Copy
+                            </button>
                         </div>
 
                     </div>
@@ -340,16 +349,14 @@ hover:bg-purple-500/20 transition">JavaScript</span>
 
                 </div>
 
-            </div>
+                <!-- Social Links -->
+                <div class="flex justify-center gap-6 mt-10 text-gray-400">
+                    <a href="https://github.com/Varun-9997" class="hover:text-white">GitHub</a>
+                    <a href="https://www.linkedin.com/in/varun-dangre-43684837b" target="_blank"
+                        class="hover:text-white">LinkedIn</a>
+                </div>
 
-            <!-- Social Links -->
-            <div class="flex justify-center gap-6 mt-10 text-gray-400">
-                <a href="https://github.com/Varun-9997" class="hover:text-white">GitHub</a>
-                <a href="https://www.linkedin.com/in/varun-dangre-43684837b" target="_blank"
-                    class="hover:text-white">LinkedIn</a>
             </div>
-
-        </div>
 
     </section>
 @endsection
