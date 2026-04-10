@@ -294,35 +294,49 @@ hover:bg-purple-500/20 transition">JavaScript</span>
                     The best way to reach me is via WhatsApp or Email.
                 </p>
 
-                <div class="flex flex-col md:flex-row justify-center gap-4">
+                <div class="flex flex-col items-center gap-6">
 
-                    <!-- WhatsApp -->
+                    <!-- WhatsApp Button -->
                     <a href="https://wa.me/919970575246" target="_blank"
                         class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition">
 
                         <!-- WhatsApp SVG -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path
-                                d="M20.52 3.48A11.8 11.8 0 0012.05 0C5.5 0 .2 5.3.2 11.85c0 2.1.55 4.15 1.6 5.95L0 24l6.35-1.75a11.82 11.82 0 005.7 1.45h.01c6.55 0 11.85-5.3 11.85-11.85 0-3.17-1.23-6.15-3.4-8.37zM12.05 21.5h-.01a9.6 9.6 0 01-4.9-1.35l-.35-.2-3.75 1.05 1-3.65-.25-.38a9.6 9.6 0 01-1.5-5.12c0-5.3 4.3-9.6 9.6-9.6 2.55 0 4.95.99 6.75 2.8a9.54 9.54 0 012.8 6.75c0 5.3-4.3 9.6-9.6 9.6zm5.3-7.2c-.3-.15-1.75-.85-2.02-.95-.27-.1-.47-.15-.67.15s-.77.95-.95 1.15c-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.8-1.67-2.1-.17-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.57-.5-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.2 5.1 4.5.7.3 1.25.47 1.67.6.7.22 1.35.2 1.85.12.57-.08 1.75-.72 2-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" />
+                                d="M20.52 3.48A11.8 11.8 0 0012.05 0C5.5 0 .2 5.3.2 11.85c0 2.1.55 4.15 1.6 5.95L0 24l6.35-1.75a11.82 11.82 0 005.7 1.45h.01c6.55 0 11.85-5.3 11.85-11.85 0-3.17-1.23-6.15-3.4-8.37z" />
                         </svg>
 
                         Chat on WhatsApp
                     </a>
 
-                    <!-- Email -->
-                    <a href="mailto:dangrevarun23@gmail.com?subject=Contact%20from%20Portfolio"
-                        onclick="window.location.href='mailto:dangrevarun23@gmail.com'; return true;"
-                        class="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg">
+                    <!-- Email Section -->
+                    <div class="text-center">
 
-                        <!-- Email SVG -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M16 12H8m0 0l-4-4m4 4l-4 4m8-4h8" />
-                        </svg>
+                        <p class="text-gray-400 text-sm mb-2">
+                            Or email me directly at
+                        </p>
 
-                        Send Email
-                    </a>
+                        <div class="flex items-center justify-center gap-3">
+
+                            <!-- Email Text -->
+                            <span class="text-white font-medium">
+                                dangrevarun23@gmail.com
+                            </span>
+
+                            <!-- Copy Button -->
+                            <button onclick="navigator.clipboard.writeText('dangrevarun23@gmail.com')"
+                                class="text-purple-400 hover:text-purple-300 transition text-sm">
+                                Copy
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Response Time -->
+                    <p class="text-gray-500 text-sm">
+                        Fast responses — usually within a few hours.
+                    </p>
 
                 </div>
 
