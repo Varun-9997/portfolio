@@ -310,7 +310,8 @@ hover:bg-purple-500/20 transition">JavaScript</span>
                     </a>
 
                     <!-- Email -->
-                    <a href="mailto:dangrevarun23@gmail.com"
+                    <a href="mailto:dangrevarun23@gmail.com?subject=Contact%20from%20Portfolio"
+                        onclick="window.location.href='mailto:dangrevarun23@gmail.com'; return true;"
                         class="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg">
 
                         <!-- Email SVG -->
